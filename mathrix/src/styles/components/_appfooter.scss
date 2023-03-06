@@ -1,0 +1,45 @@
+.footer {
+
+  &-top {
+    padding: 21px 0 39px;
+    background-image: url("/assets/images/footer/bg-sharp.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 64px;
+      letter-spacing: -0.7627685070037842px;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  &-main {
+    padding: 82px 0 2px;
+
+    ul > li:first-child {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: -0.014265777543187141px;
+      color: $secondary;
+      margin-bottom: 21px;
+    }
+    ul li {
+      margin-bottom: 18px;
+      color: $secondary-lightest;
+    }
+    button {
+      background: $white;
+      box-shadow: 0 2.71429px 7.2381px rgba(216, 218, 225, 0.8);
+      border-radius: $border-radius;
+    }
+  }
+}
