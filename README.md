@@ -1,2 +1,0 @@
-# mathrix
-Mathrix education platform
