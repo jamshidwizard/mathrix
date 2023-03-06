@@ -6,7 +6,7 @@
         <h1 class="footer-top__header">Use the app to review anywhere</h1>
         <div class="footer-top__images d-flex">
           <icon-google-play class="me-7" />
-          <img src="../../../assets/images/footer/app.svg" alt="App Store Image" />
+          <img :src="app_img" alt="App Store Image" />
         </div>
       </div>
     </div>
@@ -76,10 +76,18 @@ import IconGooglePlay from "../icons/IconGooglePlay.vue";
 import IconFooterLogo from "../icons/IconFooterLogo.vue";
 import IconFacebook from "../icons/IconFacebook.vue";
 import IconYoutube from "../icons/IconYoutube.vue";
+import AppStoreImage from "/assets/images/footer/app.svg"
 
 export default {
   name: "AppFooter",
-  components: { IconYoutube, IconFacebook, IconFooterLogo, IconGooglePlay, IconLeaf }
+
+  components: { IconYoutube, IconFacebook, IconFooterLogo, IconGooglePlay, IconLeaf },
+
+  data () {
+    return {
+        app_img: AppStoreImage
+    }
+  }
 };
 </script>
 
