@@ -11,7 +11,7 @@ $theme-colors: (
 );
 
 // 374: ======================== scss-docs-start spacer-variables-maps
-$spacer: 5px;
+$spacer: 4px;
 $spacers: (
         0: 0,
         1: $spacer * 1,
@@ -62,9 +62,25 @@ $grid-breakpoints: (
         xs: 0,
         sm: 540px,
         md: 767px,
-        lg: 1070px,
+        lg: 1200px,
 );
 
+// 485: ======================== scss-docs-start container-max-widths
+$container-max-widths: (
+        sm: 540px,
+        md: 767px,
+        lg: 1200px,
+);
+//select
+$form-select-border-radius: $border-radius;
+$form-select-font-size: 16px;
+$form-select-line-height: 21px;
+$form-select-font-family: "Poppins";
+$form-select-font-weight: 600;
+$form-select-indicator: url('../../assets/images/arrow-down.svg');
+$form-select-padding-y: 8px;
+$form-select-padding-x: 22px;
+$form-select-indicator-padding: 46px;
 
 
 // scss-docs-start import-stack
